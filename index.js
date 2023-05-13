@@ -4,7 +4,7 @@ const helmet =require('helmet')
 const connectDB =  require('./Config/Db_config');
 require('dotenv').config()
 const userRoutes = require('./Routes/UserRoute')
-const port = process.env.REACT_APP_PORT;
+const port = process.env.REACT_APP_PORT; 
 const app = express();
 
 app.use(express.json())
